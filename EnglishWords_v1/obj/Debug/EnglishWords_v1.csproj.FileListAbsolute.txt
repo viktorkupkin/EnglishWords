@@ -1,0 +1,44 @@
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.AssemblyReference.cache
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.SuggestedBindingRedirects.cache
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\MainWindow.g.cs
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\App.g.cs
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1_MarkupCompile.cache
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1_MarkupCompile.lref
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\bin\Debug\EnglishWords_v1.exe.config
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\bin\Debug\EnglishWords_v1.exe
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\bin\Debug\EnglishWords_v1.pdb
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\MainWindow.baml
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.g.resources
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.Properties.Resources.resources
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.GenerateResource.cache
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.CoreCompileInputs.cache
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.exe
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.pdb
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\LightVariant.g.cs
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\LightVariant.baml
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\bin\Debug\EnglishWords_v1.exe.config
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\bin\Debug\EnglishWords_v1.exe
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\bin\Debug\EnglishWords_v1.pdb
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.AssemblyReference.cache
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\LightVariant.g.cs
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\MainWindow.g.cs
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\App.g.cs
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1_MarkupCompile.cache
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1_MarkupCompile.lref
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\LightVariant.baml
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\MainWindow.baml
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.g.resources
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.Properties.Resources.resources
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.GenerateResource.cache
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.csproj.CoreCompileInputs.cache
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.exe
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\EnglishWords_v1.pdb
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\HardVariant.g.cs
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\HardVariant.baml
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\InputUserName.g.cs
+X:\Cloud Mail.Ru\КА ШАГ\Домашки\WPF\Exam\EnglishWords_v1\EnglishWords_v1\obj\Debug\InputUserName.baml
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\HardVariant.g.cs
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\InputUserName.g.cs
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\HardVariant.baml
+C:\Users\kupkin\source\repos\EnglishWords_v1\EnglishWords_v1\obj\Debug\InputUserName.baml

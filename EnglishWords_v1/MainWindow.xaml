@@ -1,0 +1,21 @@
+﻿<Window x:Class="EnglishWords_v1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnglishWords_v1"
+        mc:Ignorable="d"
+        Title="English Words" Height="450" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="#2F427F" Content="Вариант игры:"/>
+            <Button x:Name="buttonLight" Width="100" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" Content="Простой" Click="buttonLight_Click"/>
+            <Button x:Name="buttonHard" Width="100" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" Content="Сложный" Click="buttonHard_Click" />
+        </StackPanel>
+        <Image Grid.Column="1" Width="300" Source="/head_image.png"/>
+    </Grid>
+</Window>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3090477-EE57-431D-92EC-5ABB7C489AC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EnglishWords_v1</RootNamespace>
+    <AssemblyName>EnglishWords_v1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="HardVariant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InputUserName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LightVariant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseGameWindow.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="HardVariant.xaml.cs">
+      <DependentUpon>HardVariant.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InputUserName.xaml.cs">
+      <DependentUpon>InputUserName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LightVariant.xaml.cs">
+      <DependentUpon>LightVariant.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="head_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="apple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Img\apple.jpg" />
+    <Resource Include="Img\bag.jpg" />
+    <Resource Include="Img\ball.jpg" />
+    <Resource Include="Img\ballon.jpg" />
+    <Resource Include="Img\bat.jpg" />
+    <Resource Include="Img\bear.jpg" />
+    <Resource Include="Img\bed.jpg" />
+    <Resource Include="Img\bee.jpg" />
+    <Resource Include="Img\bike.jpg" />
+    <Resource Include="Img\biscuits.jpg" />
+    <Resource Include="Img\box.jpg" />
+    <Resource Include="Img\boy.jpg" />
+    <Resource Include="Img\cabbage.jpg" />
+    <Resource Include="Img\cake.jpg" />
+    <Resource Include="Img\cap.jpg" />
+    <Resource Include="Img\car.jpg" />
+    <Resource Include="Img\carrot.jpg" />
+    <Resource Include="Img\cat.jpg" />
+    <Resource Include="Img\chair.jpg" />
+    <Resource Include="Img\cheese.jpg" />
+    <Resource Include="Img\chick.jpg" />
+    <Resource Include="Img\clock.jpg" />
+    <Resource Include="Img\coat.jpg" />
+    <Resource Include="Img\cock.jpg" />
+    <Resource Include="Img\cow.jpg" />
+    <Resource Include="Img\cup.jpg" />
+    <Resource Include="Img\deer.jpg" />
+    <Resource Include="Img\dish.jpg" />
+    <Resource Include="Img\dog.jpg" />
+    <Resource Include="Img\doll.jpg" />
+    <Resource Include="Img\dolphin.jpg" />
+    <Resource Include="Img\donkey.jpg" />
+    <Resource Include="Img\dress.jpg" />
+    <Resource Include="Img\duck.jpg" />
+    <Resource Include="Img\elephant.jpg" />
+    <Resource Include="Img\fish.jpg" />
+    <Resource Include="Img\five.jpg" />
+    <Resource Include="Img\flag.jpg" />
+    <Resource Include="Img\fly.jpg" />
+    <Resource Include="Img\fork.jpg" />
+    <Resource Include="Img\four.jpg" />
+    <Resource Include="Img\fox.jpg" />
+    <Resource Include="Img\frog.jpg" />
+    <Resource Include="Img\girl.jpg" />
+    <Resource Include="Img\goat.jpg" />
+    <Resource Include="Img\goose.jpg" />
+    <Resource Include="Img\hare.jpg" />
+    <Resource Include="Img\hat.jpg" />
+    <Resource Include="Img\hen.jpg" />
+    <Resource Include="Img\heron.jpg" />
+    <Resource Include="Img\honey.jpg" />
+    <Resource Include="Img\house.jpg" />
+    <Resource Include="Img\ice cream.jpg" />
+    <Resource Include="Img\img_025.jpg" />
+    <Resource Include="Img\img_063.jpg" />
+    <Resource Include="Img\jam.jpg" />
+    <Resource Include="Img\juce.jpg" />
+    <Resource Include="Img\kite.jpg" />
+    <Resource Include="Img\knife.jpg" />
+    <Resource Include="Img\lake.jpg" />
+    <Resource Include="Img\lamp.jpg" />
+    <Resource Include="Img\meat.jpg" />
+    <Resource Include="Img\milk.jpg" />
+    <Resource Include="Img\mouse.jpg" />
+    <Resource Include="Img\one.jpg" />
+    <Resource Include="Img\parrot.jpg" />
+    <Resource Include="Img\pen.jpg" />
+    <Resource Include="Img\pencil.jpg" />
+    <Resource Include="Img\pig.jpg" />
+    <Resource Include="Img\plate.jpg" />
+    <Resource Include="Img\sea.jpg" />
+    <Resource Include="Img\seal.jpg" />
+    <Resource Include="Img\ship.jpg" />
+    <Resource Include="Img\sky.jpg" />
+    <Resource Include="Img\sled.jpg" />
+    <Resource Include="Img\snake.jpg" />
+    <Resource Include="Img\snow scooter.jpg" />
+    <Resource Include="Img\sofa.jpg" />
+    <Resource Include="Img\spoon.jpg" />
+    <Resource Include="Img\star.jpg" />
+    <Resource Include="Img\stick.jpg" />
+    <Resource Include="Img\suit.jpg" />
+    <Resource Include="Img\sweet.jpg" />
+    <Resource Include="Img\table.jpg" />
+    <Resource Include="Img\taxi.jpg" />
+    <Resource Include="Img\tea.jpg" />
+    <Resource Include="Img\telephone.jpg" />
+    <Resource Include="Img\three.jpg" />
+    <Resource Include="Img\tiger.jpg" />
+    <Resource Include="Img\tree.jpg" />
+    <Resource Include="Img\tub.jpg" />
+    <Resource Include="Img\twig.jpg" />
+    <Resource Include="Img\two.jpg" />
+    <Resource Include="Img\wolf.jpg" />
+    <Resource Include="Img\zebra.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

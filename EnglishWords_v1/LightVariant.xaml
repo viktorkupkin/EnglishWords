@@ -1,0 +1,34 @@
+﻿<Window x:Class="EnglishWords_v1.LightVariant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnglishWords_v1"
+        mc:Ignorable="d"
+        Title="Простая игра" Height="450" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="imageBox" Grid.Column="0"  Width="300" Source="/apple.jpg"/>
+        <Label x:Name="GamerName" Grid.Column="1" Content="Имя игрока" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Что на картинке?" HorizontalAlignment="Center"/>
+            <Label Content="Выбери правильный вариант." Height="Auto" HorizontalAlignment="Center"/>
+            <Button x:Name="button_Variant1" Content="Variant1" Width="150" Margin="10" Click="button_Variant1_Click"/>
+            <Button x:Name="button_Variant2" Content="Variant2" Width="150" Margin="10" Click="button_Variant1_Click"/>
+            <Button x:Name="button_Variant3" Content="Variant3" Width="150" Margin="10" Click="button_Variant1_Click"/>
+            <WrapPanel Margin="0,50,0,0">
+                <Label Content="Правильные ответы: " Foreground="Green" />
+                <Label x:Name="lable_RightAnswer" Content="0" Foreground="Green" FontWeight="Bold" Margin="13,0,0,0"/>
+                <Label Content="Неправильные ответы: " Foreground="Red"/>
+                <Label x:Name="lable_NotRightAnswer" Content="0" Foreground="Red" FontWeight="Bold"/>
+            </WrapPanel>
+            <WrapPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,30,0,0">
+                <Label Content="Таймер"/>
+                <Label x:Name="timerLable" Content="00:00:00" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto"/>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>
